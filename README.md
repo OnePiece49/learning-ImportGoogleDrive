@@ -24,8 +24,8 @@ VD API: `AIzaSyBbrMA36_nm36NCMiy3pQoLmmxhzROidBI`
 Sau đây là các bước tiến hành trong Code để yêu cầu quyền truy cập:
 
 ```swift
-pod 'GoogleAPIClientForREST/Drive', '~> 1.2.1'
-pod 'GoogleSignIn', '~> 4.1.1'
+pod 'GoogleAPIClientForREST/Drive'
+pod 'GoogleSignIn'
 ```
 
 **B5:** Ta sẽ tìm `YOUR_REVERSED_CLIENT_ID` và `YOUR_CLIENT_ID` trong file `client.plist` đã lưu ở trên và dán lần lượt vào đây:
